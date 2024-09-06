@@ -1,4 +1,4 @@
-package Solid_Principle;
+package Open_Closed_Principle;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Solid_Principle;
+package Open_Closed_Principle;
 
 public class Restaurant {
   private String name;
