@@ -1,6 +1,6 @@
 package Interface_Segregation;
 
-public class Bumrah implements Bowler {
+public class Bumrah implements Bowler,Fielder {
   @Override
   public void bowler() {
     System.out.println("Bumrah is a bowler");
@@ -12,4 +12,8 @@ public class Bumrah implements Bowler {
   }
 
 
+  @Override
+  public void fielder() {
+    System.out.println("Bumrah is a fielder");
+  }
 }
